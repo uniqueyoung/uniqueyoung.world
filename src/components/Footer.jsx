@@ -8,12 +8,11 @@ import '../utils/icon';
 
 
 const FooterContainer = styled.footer`
-  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   min-height: 150px;
-  font-size: 1rem;
-  padding: 2rem 5%;
+  padding: 1.5rem;
   bottom: 0;
-  color: white;
+  color: #f3f3f3;
   background-color: #424242;
   display: flex;
   flex-direction: column;
@@ -28,9 +27,9 @@ const FooterContainer = styled.footer`
 
 // p default margin 1rem
 const FooterItemTitle = styled.p`
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Be Vietnam Pro', sans-serif;
 
   @media (min-width: 400px) {
     font-size: 1.2rem;  

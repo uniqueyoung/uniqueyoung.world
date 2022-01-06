@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+
+/* TODO this is the size and spacing for mobile nav */
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
+  margin-right: 70%;
+  margin-top: 1rem;
+  margin-bottom: 9rem;
   pointer-events: none;
 }
 
@@ -14,12 +19,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2a2a4c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -28,7 +33,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,7 +41,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 a {
   box-shadow: none;
