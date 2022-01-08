@@ -1,10 +1,12 @@
 import styled from 'styled-components'
-import { Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 
+import Navigation from './components/Nav';
 import logo from './logo.light.png';
-import logoDark from './logo.dark.png';
 import Footer from './components/Footer'
+import About from './pages/About';
+import Home from './pages/Home';
 import './App.css';
 
 
@@ -12,6 +14,7 @@ const longText = '저는 현재 영국에 베이스를 두고 전 세계를 앞�
 const shortText = '당신이 지금 어디에 있든 한국을 떠나 새로운 무대에서의 삶을 계획하고 계신다면 저와 함께 걸어가요.'
 
 const GreetingContainer = styled.div`
+  margin-top: 8rem;
   margin-left: 1.5rem;
   color: #f3f3f3;
   text-align: left;
@@ -69,7 +72,6 @@ const ActionButton = styled.button`
   font-weight: 700;
   cursor: pointer;
   border-radius: 5px;
-  font-family: 'Gowun Dodum', sans-serif;
   color: white;
   border: none;
   background-color: ${(props) => props.color};
@@ -89,32 +91,15 @@ const ActionButton = styled.button`
   }
 `
 
-const longQuote = "You deserve to live the live" + < br ></br> + "you want to live"
+// const longQuote = "You deserve to live the live" + < br ></br> + "you want to live"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/*
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-        </a> */}
-        <GreetingContainer>
-          <Quote>
-            You deserve<br></br> to live the live<br></br> you want to live.
-          </Quote>
-          <Content>{shortText}</Content>
-          <ButtonContainer>
-            <Link to="/programs"><ActionButton color="#3f51b5">프로그램 보기</ActionButton></Link>
-            <Link to="/reviews"><ActionButton color="#818181">리뷰 보기</ActionButton></Link>
-          </ButtonContainer>
-        </GreetingContainer>
-      </header>
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+
   );
 }
 
