@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import mountain from '../assets/mountain.jpeg';
 import '../App.css';
 
-const GreetingTextLong = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크입니다. 고군분투하며 쌓아온 유럽 및 해외 취업전략과 비전공자 개발자 로드맵 등 저의 생생한 경험을 공유합니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
+const GreetingTextLong = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크<Unique> 입니다. 고군분투하며 쌓아온 유럽 및 해외 취업전략과 비전공자 개발자 로드맵 등 저의 생생한 경험을 공유합니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
 const GreetingText = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크입니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
 
 const MainImg = styled.img`
@@ -18,7 +18,7 @@ const MainImg = styled.img`
   filter: brightness(45%);
   margin: 0;
   background-repeat: no-repeat; 
-    display: none;
+  display: none;
 
   @media (min-width: 700px) {
     display: flex;
@@ -159,8 +159,8 @@ function Home() {
           {!isMobile ? <Quote>You deserve to live<br></br>the live you want to life</Quote> : null}
           <Content>{isMobile ? GreetingText : GreetingTextLong}</Content>
           <ButtonContainer>
-            <Link to="/programs"><ActionButton mobileColor="#202b78" color="#3f9295" hoverColor="cadetblue" >프로그램 보기</ActionButton></Link>
-            <Link to="/reviews"><ActionButton mobileColor="#7c8a99" color="#7c8a99" hoverColor="#8b9aa9">리뷰 보기</ActionButton></Link>
+            <Link to="/programs"><ActionButton mobileColor="#202b78" color="#3f9295" hoverColor="#217b7e" >프로그램 보기</ActionButton></Link>
+            <Link to="/reviews"><ActionButton mobileColor="#7c8a99" color="#7c8a99" hoverColor="#5c6a78">리뷰 보기</ActionButton></Link>
           </ButtonContainer>
         </GreetingContainer>
       </header>

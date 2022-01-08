@@ -7,10 +7,9 @@ import { Link } from "react-router-dom";
 
 const ReviewContainerWrapper = styled.div`
   background-color: ${(props) => props.color};
-  margin-top: -20px;
   width: 100vw;
   min-height: 550px;
-  padding: 4rem 1.5rem 4rem 1.5rem;
+  padding: 4rem 1.5rem;
   display: flex;
   flex-direction: column;
   
@@ -25,18 +24,12 @@ const ReviewItems = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  line-height: 1.6;
-  
-  @media (min-width: 700px) {
-
-
-  }
-  `
+`
 
 
 const ReadMoreLink = styled(Link)`
-  margin-top:30px;
-  font-size: 18px;
+  margin-top: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   border: none;
   color: white;
@@ -44,11 +37,11 @@ const ReadMoreLink = styled(Link)`
   text-decoration: underline;
   text-decoration-style: wavy;
   align-self: center;
-  font-family: 'Gowun Dodum';
 
   @media (min-width: 700px) {
     margin-top:0;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
     align-self: flex-end;
   }
 `
@@ -59,7 +52,9 @@ const ItemWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items:center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
+  line-height: 1.6;
+
 
   @media (min-width: 700px) {
     width: 70%;
@@ -69,10 +64,10 @@ const ItemWrapper = styled.div`
 const ProfileImg = styled.img`
   width: 150px;
   height: 150px;
-  margin-bottom: 40px;
-  
+  margin-bottom: 1rem;
+
   @media (min-width: 700px) {
-    margin-bottom: 60px;
+    margin-bottom: 2rem;
   }
 `
 
@@ -84,18 +79,24 @@ const Dot = styled.span`
   display: inline-block;
 `
 const ProfileDetailContainer = styled.div`
-  margin-top: 30px;
+  margin-top: 1rem;
   display:flex;
   flex-direction: column;
   align-items:center;
+
+    @media (min-width: 700px) {
+      margin-top: 2rem;
+  }
 `
 
 const ProgramNamesContainer = styled.span`
+  font-size: 1.1rem;
   display:flex;
   justify-content: center;
 `
 
 const JobContainer = styled.div`
+  font-size: 1.1rem;
   display:flex;
   justify-content: center;
   text-aignt: center;
@@ -108,6 +109,7 @@ const ReivewContent = styled.p`
   padding:0;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+
   
   @media (min-width: 700px) {
   font-size: 1.2rem;
