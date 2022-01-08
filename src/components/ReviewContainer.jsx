@@ -9,7 +9,7 @@ const ReviewContainerWrapper = styled.div`
   background-color: ${(props) => props.color};
   width: 100vw;
   min-height: 550px;
-  padding: 4rem 1.5rem;
+  padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
   
@@ -117,7 +117,7 @@ const ReivewContent = styled.p`
 `
 function ReviewItem({ profile, content, program, name, job, at, link, isReviewPage }) {
   const programNames = program.map((ele) => (<span><Dot />&nbsp;{ele}&nbsp;</span>));
-  const moreLink = isReviewPage ? link : '/reviews';
+  const moreLink = isReviewPage ? `/programs/${link}` : '/reviews';
 
   return (
     <ItemWrapper>
@@ -139,7 +139,7 @@ function ReviewContainer({ color, item, isReviewPage }) {
   return (
     <ReviewContainerWrapper color={backgroundColor}>
       <ReviewItems>
-        <ReviewItem {...item} isReviewPage />
+        <ReviewItem {...item} isReviewPag={isReviewPage} />
       </ReviewItems>
     </ReviewContainerWrapper >)
 }

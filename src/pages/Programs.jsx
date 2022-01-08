@@ -33,7 +33,7 @@ function Programs() {
       <ProgramWrapper>
         {products.map((product) => {
           return (
-            <Link to={product.link}><ProgramCard {...product} /></Link>)
+            <Link to={`/programs/${product.link}`}><ProgramCard {...product} /></Link>)
         })}
       </ProgramWrapper >
       < Footer />

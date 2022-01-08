@@ -112,7 +112,7 @@ const Hamburger = ({ fontColor, isCollapsed, setIsCollapsed }) => {
     </HamburgerWrapper>
   )
 }
-const Navigation = ({ isColoredPage, isProgram, backgroundColor }) => {
+const Navigation = ({ isColoredPage, backgroundColor, isProgram }) => {
   const [isTop, setIsTop] = useState(true);
   const [isSticky, setIsSticky] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -131,11 +131,9 @@ const Navigation = ({ isColoredPage, isProgram, backgroundColor }) => {
     window.addEventListener('scroll', handleScroll);
   }, [isTop])
 
-  console.log('isTop,', isTop)
-
   const navColor = backgroundColor ? backgroundColor : isTop ? 'transparent' : "#f3f3f3";
-  const logo = isColoredPage && isTop ? logoLight : logoDark;
-  const fontColor = isColoredPage && isTop ? '#f3f3f3' : "#242424"
+  const logo = isColoredPage && isTop ? logoLight : isProgram ? logoLight : logoDark;
+  const fontColor = isColoredPage && isTop ? '#f3f3f3' : isProgram ? '#f3f3f3' : "#242424"
 
   const NavigationItems = items.map(item => {
     const href = `/${item} `;

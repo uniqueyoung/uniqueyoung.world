@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Programs from './pages/Programs';
 import Reviews from './pages/Reviews';
+import Beginner from './pages/Beginner';
 import './App.css';
 
 // TODO dynamic routes for dynamic pages
@@ -15,7 +16,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/programs" element={<Programs />} />
       <Route path="/reviews" element={<Reviews />} />
-
+      <Route path="/programs/beginner" element={<Beginner />} />
     </Routes>
 
   );
