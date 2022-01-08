@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import Navigation from '../components/Nav';
 import Footer from '../components/Footer';
-import me from '../me.png';
-import circles from '../circles.png';
-import logoImg from '../logoImg.png';
+import me from '../assets/me.png';
+import circles from '../assets/circles.png';
+import logoImg from '../assets/logoImg.png';
 
 
 

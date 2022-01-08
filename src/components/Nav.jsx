@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import styled, { withTheme } from 'styled-components';
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import logoLight from '../logo.light.png';
-import logoDark from '../logo.dark.png';
+import logoLight from '../assets/logo.light.png';
+import logoDark from '../assets/logo.dark.png';
 
 const items = ["about", "programs", "reviews"];
 
