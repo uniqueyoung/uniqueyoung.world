@@ -8,8 +8,8 @@ import Footer from '../components/Footer'
 import mountain from '../assets/mountain.jpeg';
 import '../App.css';
 
-const GreetingTextLong = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크<Unique> 입니다. 고군분투하며 쌓아온 유럽 및 해외 취업전략과 비전공자 개발자 로드맵 등 저의 생생한 경험을 공유합니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
-const GreetingText = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크입니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
+const GreetingTextLong = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크 Unique 입니다. 고군분투하며 쌓아온 유럽 및 해외 취업전략과 비전공자 개발자 로드맵 등 저의 생생한 경험을 공유합니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
+const GreetingText = '영어강사 출신 디지털노마드의 해외취업 멘토링 프로그램 유니크 Unique 입니다. 당신이 지금 어디에 있던 한국을 떠나 세계 무대에서 새로운 삶을 계획하고 계신다면 저와 함께 걸어가요.'
 
 const MainImg = styled.img`
   width: 100vw;
@@ -55,12 +55,14 @@ const GreetingContainer = styled.div`
 const Quote = styled.h1`
   font-family: 'Be Vietnam Pro', sans-serif;
   letter-spacing: -1px;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   margin-top: 2rem;
   margin-right: 4rem;
+  line-height: 1.1;
+
 
   @media (min-width: 400px) {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
 }
 
   @media (min-width: 700px) {
@@ -82,7 +84,7 @@ const Content = styled.p`
   } 
 
   @media (min-width: 700px) {
-    font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;
     margin-bottom: 2rem;
     width: 50rem;
   }
@@ -120,6 +122,7 @@ const ActionButton = styled.button`
 }
 
   @media (min-width: 700px) {
+    font-size: 1.1rem;
     background-color: ${(props) => props.color};
     min-width: 12rem;
 

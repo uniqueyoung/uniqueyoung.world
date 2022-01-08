@@ -12,7 +12,7 @@ function Reviews() {
     <div>
       <Navigation navTheme="light" isDarkLogo />
       <PageTitle>Reviews.</PageTitle>
-      {allReviews.map((review) => <ReviewContainer item={review} isReviewPage />)}
+      {allReviews.map((review) => <ReviewContainer item={review} isReviewPage={true} />)}
       <Footer />
     </div>
   )

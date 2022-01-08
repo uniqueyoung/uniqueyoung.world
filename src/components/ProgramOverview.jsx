@@ -58,14 +58,13 @@ const H1 = styled.h1`
 `
 
 const H2 = styled.h2`
-  font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
   margin: 0px;
   color: ${props => props.theme ? props.theme : 'initial'};
 
   @media (min-width: 700px) {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
 `
 

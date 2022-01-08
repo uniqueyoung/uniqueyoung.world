@@ -48,11 +48,15 @@ const OurImg = styled.img`
 const Title = styled.h1`
   font-family: 'Be Vietnam Pro',sans-serif;
   margin: 1rem 0;
+  font-size: 2rem;
+  
   font-weight: 600;
   color: #363636;
+  line-height: 1.1;
 
   @media (min-width: 700px) {
     padding-right:0;
+    font-size: 2.3rem;
   }
 `
 
@@ -73,10 +77,15 @@ const ContentP = styled.p`
   font-size: 1rem;
   color: #363636;
   margin-bottom: 0.5rem;
+  margin-top: 0;
   line-height: 1.6;
 
   @media (min-width: 400px) {
     font-size: 1.2rem;
+  }
+
+  @media (min-width: 700px) {
+    margin-top: 1rem;
   }
 
 `
