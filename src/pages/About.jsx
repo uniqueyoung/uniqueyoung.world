@@ -1,5 +1,7 @@
+import { Fragment, useState, useEffect } from 'react';
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
+import PageTitle from "../components/PageTitle"
 
 import Navigation from '../components/Nav';
 import Footer from '../components/Footer';
@@ -29,8 +31,7 @@ const UniqueImg = styled.img`
   margin-bottom: 1rem;
 
   @media (min-width: 700px) {
-      height: 60vh;
-
+    height: 60vh;
     margin-bottom: 1.75rem;
   }
 `
@@ -95,22 +96,23 @@ const CircleWrapper = styled.div`
   justify-content: center;
   padding: 1rem 2rem;
 
-    @media (min-width: 700px) {
-      padding: 0
+  @media (min-width: 700px) {
+    padding: 0
   }
-  
 `
 const Circles = styled.img`
   width: 18rem;
+  height: 200px;
   @media (min-width: 700px) {
     width: 32rem;
+    height: 400px;
   }
 `
 
 
 const MoreLink = styled.a`
   margin: 1rem 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   border: none;
   color: #363636;
@@ -118,22 +120,44 @@ const MoreLink = styled.a`
   text-decoration-style: wavy;
   align-self: flex-end;
 
-  @media (min-width: 700px) {
+  @media (min-width: 380px) {
     font-size: 1.2rem;
-
   }
+
+`
+const AboutTitle = styled.p`
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  letter-spacing: -1px;
+  padding: 0 1rem;
+  margin-top: -4rem;
+  color: #f3f3f3;
 `
 
 export default function About() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, [])
+
+  const isMobile = width <= 768;
   return (
     <>
       <Navigation isColoredPage />
-      <UniqueImgHelper />
-      <UniqueImg src={logoImg} />
+      {isMobile ? <PageTitle color="darkgray"><AboutTitle>Unique,<br></br>become the best version of yourself.</AboutTitle></PageTitle> : (<><UniqueImgHelper /> <UniqueImg src={logoImg} /></>)}
       <DescriptionBox>
-        <Title>
+        {!isMobile ? <Title>
           Unique, become the best version of yourself.
-        </Title>
+        </Title> : null}
         <CircleWrapper>
           <Circles src={circles} />
         </CircleWrapper>

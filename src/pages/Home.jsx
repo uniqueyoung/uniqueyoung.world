@@ -26,7 +26,7 @@ const MainImg = styled.img`
 `
 
 const GreetingContainer = styled.div`
-  margin-top: 30vh;
+  margin-top: 25vh;
   margin-left: 1.5rem;
   color: #f3f3f3;
   text-align: left;
@@ -104,7 +104,6 @@ const ButtonContainer = styled.div`
 const ActionButton = styled.button`
   width: 8.5rem;
   height: 3.1rem;
-  margin-top: 1rem;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;

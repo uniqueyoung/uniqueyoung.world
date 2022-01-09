@@ -48,7 +48,7 @@ const Hr = styled.hr`
 
 const H1 = styled.h1`
   margin: 0 0 0.5rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
 
   @media (min-width: 700px) {
@@ -157,7 +157,7 @@ const ActionButton = styled.button`
   padding: 0;
   color: white;
   border: none;
-  width: 15rem;
+  width: 18rem;
   font-size: 1rem;
   height: 50px;
   border-radius: 5px;
@@ -166,6 +166,11 @@ const ActionButton = styled.button`
   
   &:first-child {
     margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 700px) {
+      margin-bottom:0.5rem;
+    }
   }
 
   &:hover {
@@ -175,6 +180,8 @@ const ActionButton = styled.button`
   @media (min-width: 400px) {
       font-size: 1.1rem;
       width: 11rem;
+      margin-bottom: 1rem;
+
   }
 
   @media (min-width: 700px) {

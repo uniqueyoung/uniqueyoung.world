@@ -57,16 +57,18 @@ const ListItem = styled.li`
   text-transform: capitalize;
   list-style: none;
   margin-bottom: 0;
-  margin-right: 0.5rem;
+  margin-right: 0.45rem;
   color: ${(props) => props.isActive ? '#8d8d8d' : props.fontColor};
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
 
-  @media(min-width: 400px) {
-  margin-right: 1rem;
-
+  @media(min-width: 370px) {
+    margin-right: 1rem;
+    font-size: 1rem;
+    margin-right: 0.7rem;
   }
+
   @media(min-width: 700px) {
     margin-left: 1rem;
     margin-right: 0;
