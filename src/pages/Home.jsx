@@ -79,6 +79,10 @@ const Content = styled.p`
   width:85%;
   line-height: 1.6;
 
+  @media (min-width: 370px) {
+    font-size: 1.1rem;  
+  } 
+  
   @media (min-width: 400px) {
     font-size: 1.2rem;  
   } 

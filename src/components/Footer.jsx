@@ -28,7 +28,7 @@ const FooterContainer = styled.footer`
 // p default margin 1rem
 const FooterItemTitle = styled.p`
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Be Vietnam Pro', sans-serif;
 
   @media (min-width: 400px) {
@@ -51,6 +51,10 @@ const FooterRight = styled.div`
 const FooterItem = styled.a`
   font-size: 1rem;
   margin-bottom: 0.4rem;
+
+  @media (min-width: 370px) {
+    font-size: 1.1rem;
+  }
   
   @media (min-width: 400px) {
     font-size: 1.2rem;
@@ -72,7 +76,7 @@ const blogPostMap = [
   },
   {
     type: '디지털노마드',
-    title: '스페인 알리칸테 Alicante 1편',
+    title: '스페인 알리칸테 Alicante',
     id: '222602675809'
   },
   {

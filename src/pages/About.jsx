@@ -77,7 +77,7 @@ const DescriptionBox = styled.div`
 const ContentP = styled.p`
   font-size: 1.1rem;
   color: #363636;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   margin-top: 0;
   line-height: 1.6;
 
@@ -102,7 +102,7 @@ const CircleWrapper = styled.div`
 `
 const Circles = styled.img`
   width: 18rem;
-  height: 200px;
+  height: 210px;
   @media (min-width: 700px) {
     width: 32rem;
     height: 400px;

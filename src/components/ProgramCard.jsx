@@ -43,15 +43,7 @@ const ProductCardContainer = styled.div`
 
 const Description = styled.p`
   padding-right: 0.5rem;
-  font-size: 1rem;
-
-  @media (min-width: 400px) {
-    font-size: 1.1rem;
-  
-  }
-  @media (min-width: 700px) {
-    font-size: 1.1rem;
-  }
+  font-size: 1.1rem;
 `
 
 const ViewMore = styled.p`
