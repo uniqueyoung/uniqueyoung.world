@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uniqueyoung.world/static/css/main.501b0b30.css",
-    "main.js": "/uniqueyoung.world/static/js/main.bede55e7.js",
+    "main.js": "/uniqueyoung.world/static/js/main.b96c8f34.js",
     "static/js/787.e646ae11.chunk.js": "/uniqueyoung.world/static/js/787.e646ae11.chunk.js",
     "static/media/zing.png": "/uniqueyoung.world/static/media/zing.01a70bf6d4e86a9d1745.png",
     "static/media/zingzingzing.png": "/uniqueyoung.world/static/media/zingzingzing.a209d7051d978a517203.png",
@@ -20,11 +20,11 @@
     "static/media/logo.light.png": "/uniqueyoung.world/static/media/logo.light.093801e1a3a1a19f006b.png",
     "index.html": "/uniqueyoung.world/index.html",
     "main.501b0b30.css.map": "/uniqueyoung.world/static/css/main.501b0b30.css.map",
-    "main.bede55e7.js.map": "/uniqueyoung.world/static/js/main.bede55e7.js.map",
+    "main.b96c8f34.js.map": "/uniqueyoung.world/static/js/main.b96c8f34.js.map",
     "787.e646ae11.chunk.js.map": "/uniqueyoung.world/static/js/787.e646ae11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.501b0b30.css",
-    "static/js/main.bede55e7.js"
+    "static/js/main.b96c8f34.js"
   ]
 }
