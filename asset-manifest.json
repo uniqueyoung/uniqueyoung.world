@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/uniqueyoung.world/static/css/main.501b0b30.css",
+    "main.js": "/uniqueyoung.world/static/js/main.8a0b6206.js",
+    "static/js/787.e646ae11.chunk.js": "/uniqueyoung.world/static/js/787.e646ae11.chunk.js",
+    "static/media/zing.png": "/uniqueyoung.world/static/media/zing.01a70bf6d4e86a9d1745.png",
+    "static/media/zingzingzing.png": "/uniqueyoung.world/static/media/zingzingzing.a209d7051d978a517203.png",
+    "static/media/sooyoung.png": "/uniqueyoung.world/static/media/sooyoung.b45ab6979233f916c251.png",
+    "static/media/muni.png": "/uniqueyoung.world/static/media/muni.c9e5978d11850584a2b8.png",
+    "static/media/me.png": "/uniqueyoung.world/static/media/me.a039d39b0641e071bee0.png",
+    "static/media/dhdh.png": "/uniqueyoung.world/static/media/dhdh.4043d4438b0f99acadfe.png",
+    "static/media/dh.png": "/uniqueyoung.world/static/media/dh.e7f31711f1655863fd61.png",
+    "static/media/soosoo.png": "/uniqueyoung.world/static/media/soosoo.9fa1e0010ba14b8de570.png",
+    "static/media/mountain.jpeg": "/uniqueyoung.world/static/media/mountain.716c3ec4d6dcb59ba8a0.jpeg",
+    "static/media/trump-circle.png": "/uniqueyoung.world/static/media/trump-circle.181c9c6ec5b5b466966f.png",
+    "static/media/circles.png": "/uniqueyoung.world/static/media/circles.86912299617959a3d88a.png",
+    "static/media/logoImg.png": "/uniqueyoung.world/static/media/logoImg.9290995daef9be8b535b.png",
+    "static/media/soo.png": "/uniqueyoung.world/static/media/soo.19aab08ed858b27c1992.png",
+    "static/media/logo.dark.png": "/uniqueyoung.world/static/media/logo.dark.a7c9b87ec323f95e38b4.png",
+    "static/media/logo.light.png": "/uniqueyoung.world/static/media/logo.light.093801e1a3a1a19f006b.png",
+    "index.html": "/uniqueyoung.world/index.html",
+    "main.501b0b30.css.map": "/uniqueyoung.world/static/css/main.501b0b30.css.map",
+    "main.8a0b6206.js.map": "/uniqueyoung.world/static/js/main.8a0b6206.js.map",
+    "787.e646ae11.chunk.js.map": "/uniqueyoung.world/static/js/787.e646ae11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.501b0b30.css",
+    "static/js/main.8a0b6206.js"
+  ]
+}
