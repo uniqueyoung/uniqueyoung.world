@@ -75,7 +75,7 @@ const DescriptionBox = styled.div`
 `
 
 const ContentP = styled.p`
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #363636;
   margin-bottom: 0.5rem;
   margin-top: 0;
@@ -112,7 +112,7 @@ const Circles = styled.img`
 
 const MoreLink = styled.a`
   margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   border: none;
   color: #363636;
