@@ -58,7 +58,7 @@ const ListItem = styled.li`
   list-style: none;
   margin-bottom: 0;
   margin-right: 0.5rem;
-  color: ${(props) => props.fontColor};
+  color: ${(props) => props.isActive ? '#8d8d8d' : props.fontColor};
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
@@ -116,6 +116,7 @@ const Navigation = ({ isColoredPage, backgroundColor, isProgram }) => {
   const [isTop, setIsTop] = useState(true);
   const [isSticky, setIsSticky] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [currentNav, setCurrentNav] = useState(window.location.pathname);
 
   const handleScroll = () => {
     if (window.scrollY > 80) {
@@ -129,20 +130,17 @@ const Navigation = ({ isColoredPage, backgroundColor, isProgram }) => {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [isTop])
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [currentNav])
 
   const navColor = backgroundColor ? backgroundColor : isTop ? 'transparent' : "#f3f3f3";
   const logo = isColoredPage && isTop ? logoLight : isProgram ? logoLight : logoDark;
-  const fontColor = isColoredPage && isTop ? '#f3f3f3' : isProgram ? '#f3f3f3' : "#242424"
-
-  const NavigationItems = items.map(item => {
-    const href = `/${item} `;
-    return (
-      <ListItem key={item} fontColor={fontColor}>
-        <Link to={href}>{item}</Link>
-      </ListItem>
-    )
-  });
+  const fontColor = isColoredPage && isTop ? '#f3f3f3' : isProgram ? '#f3f3f3' : "#242424";
+  const current = window.location.pathname;
 
 
   return (
@@ -151,7 +149,17 @@ const Navigation = ({ isColoredPage, backgroundColor, isProgram }) => {
         <LogoImg src={logo} />
       </LogoLink>
       <NavUl color={fontColor} isCollapsed={isCollapsed}>
-        {NavigationItems}
+        {items.map(item => {
+          const href = `/${item} `;
+          return (
+            <ListItem key={item} fontColor={fontColor} isActive={current.includes(item)} onClick={() => {
+              console.log('hello?', item, currentNav, current.includes(currentNav))
+              setCurrentNav(item);
+            }}>
+              <Link to={href}>{item}</Link>
+            </ListItem>
+          )
+        })}
       </NavUl>
       <Hamburger fontColor={fontColor} isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} />
     </NavigationWrapper >

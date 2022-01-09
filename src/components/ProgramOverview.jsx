@@ -112,7 +112,7 @@ const P = styled.p`
 `
 
 const DetailItemWrapper = styled.div`
-  margin-bottom: 1rem;
+
 `
 
 const DetailLabel = styled.label`
@@ -123,15 +123,18 @@ const DetailLabel = styled.label`
 const DetailP = styled.p`
   margin-top: 0.2rem;
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
   
   @media (min-width: 700px) {
     font-size: 1rem;
+  margin-bottom: 1rem;
+
   }
 
 `
 
-const ButtonContainer = styled.div`
-  margin-top: 2rem; 
+const ButtonContainer = styled.div` 
+  margin-top: 1.5rem; 
   display: flex;
   flex-direction:  column;
   max-width: 100%;
