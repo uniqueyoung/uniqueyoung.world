@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/uniqueyoung.com/static/css/main.501b0b30.css",
-    "main.js": "/uniqueyoung.com/static/js/main.73d76918.js",
-    "static/js/787.e646ae11.chunk.js": "/uniqueyoung.com/static/js/787.e646ae11.chunk.js",
-    "static/media/zing.png": "/uniqueyoung.com/static/media/zing.01a70bf6d4e86a9d1745.png",
-    "static/media/zingzingzing.png": "/uniqueyoung.com/static/media/zingzingzing.a209d7051d978a517203.png",
-    "static/media/sooyoung.png": "/uniqueyoung.com/static/media/sooyoung.b45ab6979233f916c251.png",
-    "static/media/muni.png": "/uniqueyoung.com/static/media/muni.c9e5978d11850584a2b8.png",
-    "static/media/me.png": "/uniqueyoung.com/static/media/me.a039d39b0641e071bee0.png",
-    "static/media/dhdh.png": "/uniqueyoung.com/static/media/dhdh.4043d4438b0f99acadfe.png",
-    "static/media/dh.png": "/uniqueyoung.com/static/media/dh.e7f31711f1655863fd61.png",
-    "static/media/soosoo.png": "/uniqueyoung.com/static/media/soosoo.9fa1e0010ba14b8de570.png",
-    "static/media/mountain.jpeg": "/uniqueyoung.com/static/media/mountain.716c3ec4d6dcb59ba8a0.jpeg",
-    "static/media/trump-circle.png": "/uniqueyoung.com/static/media/trump-circle.181c9c6ec5b5b466966f.png",
-    "static/media/circles.png": "/uniqueyoung.com/static/media/circles.86912299617959a3d88a.png",
-    "static/media/logoImg.png": "/uniqueyoung.com/static/media/logoImg.9290995daef9be8b535b.png",
-    "static/media/soo.png": "/uniqueyoung.com/static/media/soo.19aab08ed858b27c1992.png",
-    "static/media/logo.dark.png": "/uniqueyoung.com/static/media/logo.dark.a7c9b87ec323f95e38b4.png",
-    "static/media/logo.light.png": "/uniqueyoung.com/static/media/logo.light.093801e1a3a1a19f006b.png",
-    "index.html": "/uniqueyoung.com/index.html",
-    "main.501b0b30.css.map": "/uniqueyoung.com/static/css/main.501b0b30.css.map",
-    "main.73d76918.js.map": "/uniqueyoung.com/static/js/main.73d76918.js.map",
-    "787.e646ae11.chunk.js.map": "/uniqueyoung.com/static/js/787.e646ae11.chunk.js.map"
+    "main.css": "/static/css/main.501b0b30.css",
+    "main.js": "/static/js/main.50c307f8.js",
+    "static/js/787.e646ae11.chunk.js": "/static/js/787.e646ae11.chunk.js",
+    "static/media/zing.png": "/static/media/zing.01a70bf6d4e86a9d1745.png",
+    "static/media/zingzingzing.png": "/static/media/zingzingzing.a209d7051d978a517203.png",
+    "static/media/sooyoung.png": "/static/media/sooyoung.b45ab6979233f916c251.png",
+    "static/media/muni.png": "/static/media/muni.c9e5978d11850584a2b8.png",
+    "static/media/me.png": "/static/media/me.a039d39b0641e071bee0.png",
+    "static/media/dhdh.png": "/static/media/dhdh.4043d4438b0f99acadfe.png",
+    "static/media/dh.png": "/static/media/dh.e7f31711f1655863fd61.png",
+    "static/media/soosoo.png": "/static/media/soosoo.9fa1e0010ba14b8de570.png",
+    "static/media/mountain.jpeg": "/static/media/mountain.716c3ec4d6dcb59ba8a0.jpeg",
+    "static/media/trump-circle.png": "/static/media/trump-circle.181c9c6ec5b5b466966f.png",
+    "static/media/circles.png": "/static/media/circles.86912299617959a3d88a.png",
+    "static/media/logoImg.png": "/static/media/logoImg.9290995daef9be8b535b.png",
+    "static/media/soo.png": "/static/media/soo.19aab08ed858b27c1992.png",
+    "static/media/logo.dark.png": "/static/media/logo.dark.a7c9b87ec323f95e38b4.png",
+    "static/media/logo.light.png": "/static/media/logo.light.093801e1a3a1a19f006b.png",
+    "index.html": "/index.html",
+    "main.501b0b30.css.map": "/static/css/main.501b0b30.css.map",
+    "main.50c307f8.js.map": "/static/js/main.50c307f8.js.map",
+    "787.e646ae11.chunk.js.map": "/static/js/787.e646ae11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.501b0b30.css",
-    "static/js/main.73d76918.js"
+    "static/js/main.50c307f8.js"
   ]
 }
