@@ -238,7 +238,7 @@ export default function ProgramOverview({ title, code, form, content, SecondCont
           <RightWrapper>
             {details.map((detailItem) => <DetailItem {...detailItem} />)}
             <ButtonContainer>
-              <a href="https://forms.gle/NjBujkkfiUn6dioWA" target="_blank" rel="noopener noreferrer"><ActionButton action="apply" theme={theme} secondary={secondary}>예약신청하기</ActionButton></a>
+              <a href="https://forms.gle/bPxUxDPk3Quz4XoJ8" target="_blank" rel="noopener noreferrer"><ActionButton action="apply" theme={theme} secondary={secondary}>예약신청하기</ActionButton></a>
               <Link to="/programs"><ActionButton>다른 프로그램 보기</ActionButton></Link>
             </ButtonContainer>
           </RightWrapper>
