@@ -58,7 +58,7 @@ const ListItem = styled.li`
   list-style: none;
   margin-bottom: 0;
   margin-right: 0.45rem;
-  color: ${(props) => props.isActive ? '#8d8d8d' : props.fontColor};
+  color: ${(props) => props.isActive ? '#979797' : props.fontColor};
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 600;

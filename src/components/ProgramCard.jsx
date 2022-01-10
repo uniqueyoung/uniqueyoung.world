@@ -48,7 +48,6 @@ const Description = styled.p`
 
 const ViewMore = styled.p`
   text-align: right;
-  margin-top: 1rem;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-style: wavy;

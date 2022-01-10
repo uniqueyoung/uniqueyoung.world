@@ -203,7 +203,7 @@ const DetailItem = ({ label, value }) => {
 
 
 export default function ProgramOverview({ title, code, form, content, SecondContent, afters, details, theme, secondary }) {
-  const afterString = code === '501' ? '키워드' : `${title}에서 무엇을 얻어 갈 수 있을까?`;
+  const afterString = code === '501' ? '키워드' : `[${title}] 에서 무엇을 얻어 갈 수 있을까?`;
   const [width, setWidth] = useState(window.innerWidth);
 
   function handleWindowSizeChange() {
