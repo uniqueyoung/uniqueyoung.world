@@ -161,8 +161,8 @@ function Home() {
         <MainImg src={mountain} className="intro-img" />
         <Navigation isColoredPage />
         <GreetingContainer>
-          {isMobile ? <Quote>You deserve <br></br>to live the live<br></br> you want to live</Quote> : null}
-          {!isMobile ? <Quote>You deserve to live<br></br>the live you want to live</Quote> : null}
+          {isMobile ? <Quote>You deserve <br></br>to live the life<br></br> you want to live</Quote> : null}
+          {!isMobile ? <Quote>You deserve to live<br></br>the life you want to live</Quote> : null}
           <Content>{isMobile ? GreetingText : GreetingTextLong}</Content>
           <ButtonContainer>
             <Link to="/programs"><ActionButton mobileColor="#202b78" color="#3f9295" hoverColor="#217b7e" >프로그램 보기</ActionButton></Link>
