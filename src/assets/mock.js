@@ -7,6 +7,7 @@ import profile5 from './sooyoung.png';
 import profile6 from './dh.png';
 import profile7 from './dhdh.png';
 import profileTrump from './trump-circle.png';
+import minjiProfile from './minjiProfile.png'
 
 
 const mock = {
@@ -266,6 +267,16 @@ const mock = {
   ],
   reviews: {
     all: [{
+      color: '#8d6658',
+      name: '손민지',
+      link: '/entry',
+      profile: minjiProfile,
+      job: '',
+      at: '@ 비공개',
+      program: ['커피챗'], content: '"우선, 방황하는 젊은이로서 불안함과 조급함이 가장 큰 고민이었는데 그런 부분에서 아직 시간은 충분하고 가능성도 무한하다고 해주신 게 큰 위로가 되었습니다. 헤더님도 저와 비슷한 고민을 하셨다는 게 느껴질만큼 깊게 공감해주셔서 좋았어요. 또 제 얘기를 천천히 들어주시면서도 그 안에서 키워드를 딱딱 잡아내셔서 저에게 필요한 이야기를 착착 알려주시는 모습이 인상적이었습니다.무언가를 새로 시작할 때, 어디서부터 무엇을 어떻게 해야하나 하는 "막막함"이 제일 어려워서 두서없이 이야기를 내뱉게 되는데요.커피챗이었지만 그냥 서로 고민얘기하고 수다만 떨다가 끝나는 시간이 아니라 고민1- 대답1 / 고민2 - 대답2 이런 느낌으로 정리를 해주셔서 좋았어요. 제가 가고자 하는 길을 먼저 경험하고 심지어 끌어줄 의지도 있는 분을 알게되어 기쁩니다.아직 흐릿하지만 저도 할 수 있을 것 같다는 자신감과 긍정의 기운을 받아서 즐거운 시간이었어요."'
+    },
+
+    {
       color: '#fb9f94',
       name: '장윤정',
       link: '/entry',
