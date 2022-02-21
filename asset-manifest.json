@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.501b0b30.css",
-    "main.js": "/static/js/main.7708b07a.js",
+    "main.js": "/static/js/main.2eca8e9f.js",
     "static/js/787.e646ae11.chunk.js": "/static/js/787.e646ae11.chunk.js",
     "static/media/zing.png": "/static/media/zing.01a70bf6d4e86a9d1745.png",
     "static/media/zingzingzing.png": "/static/media/zingzingzing.a209d7051d978a517203.png",
@@ -11,6 +11,8 @@
     "static/media/minjiProfile.png": "/static/media/minjiProfile.57d46f55176f59dec03b.png",
     "static/media/dhdh.png": "/static/media/dhdh.4043d4438b0f99acadfe.png",
     "static/media/dh.png": "/static/media/dh.e7f31711f1655863fd61.png",
+    "static/media/ryanProfile.png": "/static/media/ryanProfile.ed407a6529504fc970a2.png",
+    "static/media/boraProfile.png": "/static/media/boraProfile.2b884207448c1828e232.png",
     "static/media/soosoo.png": "/static/media/soosoo.9fa1e0010ba14b8de570.png",
     "static/media/mountain.jpeg": "/static/media/mountain.716c3ec4d6dcb59ba8a0.jpeg",
     "static/media/trump-circle.png": "/static/media/trump-circle.181c9c6ec5b5b466966f.png",
@@ -21,11 +23,11 @@
     "static/media/logo.light.png": "/static/media/logo.light.093801e1a3a1a19f006b.png",
     "index.html": "/index.html",
     "main.501b0b30.css.map": "/static/css/main.501b0b30.css.map",
-    "main.7708b07a.js.map": "/static/js/main.7708b07a.js.map",
+    "main.2eca8e9f.js.map": "/static/js/main.2eca8e9f.js.map",
     "787.e646ae11.chunk.js.map": "/static/js/787.e646ae11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.501b0b30.css",
-    "static/js/main.7708b07a.js"
+    "static/js/main.2eca8e9f.js"
   ]
 }
